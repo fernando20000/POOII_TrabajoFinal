@@ -1,1 +1,100 @@
+public class Libro {
+    private int codigoLibro;
+    private String nombreLibro;
+    private String autorLibro;
+    private String sinopsisLibro;
+    private String stockLibro;
+    private String lugarLibro;
+    private float precioLibro;
+    private String editorialLibro;
+    private int    fechaLibro;
+
+    public Libro(int codigoLibro, String nombreLibro, String autorLibro, String sinopsisLibro, String stockLibro, String lugarLibro, float precioLibro, String editorialLibro, int fechaLibro) {
+        this.codigoLibro = codigoLibro;
+        this.nombreLibro = nombreLibro;
+        this.autorLibro = autorLibro;
+        this.sinopsisLibro = sinopsisLibro;
+        this.stockLibro = stockLibro;
+        this.lugarLibro = lugarLibro;
+        this.precioLibro = precioLibro;
+        this.editorialLibro = editorialLibro;
+        this.fechaLibro = fechaLibro;
+    }
+    
+    
+
+    public int getCodigoLibro() {
+        return codigoLibro;
+    }
+
+    public void setCodigoLibro(int codigoLibro) {
+        this.codigoLibro = codigoLibro;
+    }
+
+    public String getNombreLibro() {
+        return nombreLibro;
+    }
+
+    public void setNombreLibro(String nombreLibro) {
+        this.nombreLibro = nombreLibro;
+    }
+
+    public String getAutorLibro() {
+        return autorLibro;
+    }
+
+    public void setAutorLibro(String autorLibro) {
+        this.autorLibro = autorLibro;
+    }
+
+    public String getSinopsisLibro() {
+        return sinopsisLibro;
+    }
+
+    public void setSinopsisLibro(String sinopsisLibro) {
+        this.sinopsisLibro = sinopsisLibro;
+    }
+
+    public String getStockLibro() {
+        return stockLibro;
+    }
+
+    public void setStockLibro(String stockLibro) {
+        this.stockLibro = stockLibro;
+    }
+
+    public String getLugarLibro() {
+        return lugarLibro;
+    }
+
+    public void setLugarLibro(String lugarLibro) {
+        this.lugarLibro = lugarLibro;
+    }
+
+    public float getPrecioLibro() {
+        return precioLibro;
+    }
+
+    public void setPrecioLibro(float precioLibro) {
+        this.precioLibro = precioLibro;
+    }
+
+    public String getEditorialLibro() {
+        return editorialLibro;
+    }
+
+    public void setEditorialLibro(String editorialLibro) {
+        this.editorialLibro = editorialLibro;
+    }
+
+    public int getFechaLibro() {
+        return fechaLibro;
+    }
+
+    public void setFechaLibro(int fechaLibro) {
+        this.fechaLibro = fechaLibro;
+    }
+    
+    
+}
 
